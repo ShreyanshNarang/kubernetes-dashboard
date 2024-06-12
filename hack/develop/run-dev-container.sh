@@ -44,10 +44,10 @@ docker network create ${KD_DEV_NETWORK} \
   -o com.docker.network.driver.mtu=1500
 
 # Bind address for dashboard
-KD_DEV_BIND_ADDRESS=${KD_DEV_BIND_ADDRESS:-"127.0.0.1"}
+KD_DEV_BIND_ADDRESS=${KD_DEV_BIND_ADDRESS:-"0.0.0.0"}
 
 # Metrics Scraper sidecar host for dashboard
-KD_DEV_SIDECAR_HOST=${KD_DEV_SIDECAR_HOST:-"http://localhost:8000"}
+KD_DEV_SIDECAR_HOST=${KD_DEV_SIDECAR_HOST:-"http://3.133.111.165:8000"}
 
 # Build and run container for dashboard
 KD_DEV_IMAGE_NAME=${KD_DEV_CONTAINER_NAME:-"k8s-dashboard-dev-image"}
