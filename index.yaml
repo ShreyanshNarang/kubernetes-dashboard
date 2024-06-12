@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  my_chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-12T17:34:13.9079752+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 7c66c113ac624c5caf5b3d4b5b8b3a5a7630597cc882921b3ad793e82928ac6f
+    name: my_chart
+    type: application
+    urls:
+    - https://ShreyanshNarang.github.io/kubernetes-dashboard/my_chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-06-12T17:34:13.9069067+05:30"
